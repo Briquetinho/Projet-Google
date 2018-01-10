@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body
 {
 	font-family: arial,sans-serif;
@@ -14,15 +23,18 @@ header
 {
 	color: rgba(0,0,0,0.87);
     text-decoration: none;
+    margin: 1em;
 }
 .GmailImage:hover
 {
 	opacity: .85;
     text-decoration: underline;
+    margin: 1em;
 }
 .Menu
 {
 	opacity:.70;
+	margin: 1em;
 }
 .Menu:hover
 {
@@ -40,6 +52,7 @@ header
     line-height: 28px;
     padding: 0 12px;
     border-radius: 2px;
+    margin: 1em;
 }
 
 
@@ -55,6 +68,7 @@ section
 	display:flex;
 	flex-direction:column;
 	align-items: center;
+	margin: 10%;
 }
 .Logo
 {
@@ -78,14 +92,32 @@ div#boutons
 {
 	display: flex;
 	flex-direction: row ;
+	margin-top: 1em
+
+}
+
+span#recherchegoogle
+{
+	padding: 0.5em ;
+	margin: 0.5em ;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+
+}
+
+span#chance
+{
+padding: 0.5em ;
+	margin: 0.5em ;
 	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
 }
 
 
 
+footer
+{
+	background-color: #f2f2f2;
 
-
-
+}
 
 
 
@@ -99,7 +131,9 @@ div#f1
 	color: rgba(0,0,0,.54);
 	align-items: flex-end;
 	justify-content: flex-start;
-	background-color: #f2f2f2;
+	border: 1px solid silver
+	
+
 }
 div#f2
 {
@@ -108,12 +142,18 @@ div#f2
 	height: 2em;
 	color: rgba(0,0,0,.54);
 	align-items: flex-end;
-	background-color: #f2f2f2;
 	text-decoration: none;
+	font-size: small;
+	border: 1px solid silver
 }
 span#cd
 {
 	display:flex;
 	justify-content: flex-end;
-	border: 1px
+	margin-left: 60%
 }
+
+/* #pub
+{
+	margin:0.8em;
+}*/
